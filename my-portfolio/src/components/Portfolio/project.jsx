@@ -13,7 +13,7 @@ export const project = [
     img: "https://static.borngroup.com/uploads/2020/07/SS1-2-1280x0-c-default.jpg",
     title: "Tanishq-Clone",
     desc: "Tanishq has emerged as India's fastest growing jewellery brand and is a name which signifies superior craftsmanship, exclusive designs and superlative product quality.",
-    tech: "HTML CSS, JAVASCRIPT tailwind",
+    tech: "HTML CSS, JAVASCRIPT, Tailwind",
     git: "https://github.com/mdshahbajalam7/tanishq",
     deploy: "https://melodic-youtiao-f6a1de.netlify.app/",
     // linkdin:
@@ -24,7 +24,7 @@ export const project = [
     img: "https://d1gzz21cah5pzn.cloudfront.net/img/websites/h/hin/hindustantimes.com-desktop@2x.1652906598.jpg",
     title: "Hindustantimes Clone",
     desc: "Hindustan Times is an Indian English-language daily newspaper the Indian independence nationalist daily Hindustan Times is an Indian English-language daily newspaper based in Delhi. It is the flagship publication of HT Media, an entity controlled by the KK Birla family, and is owned by Shobhana Bhartia.",
-    tech: "CSS, JAVASCRIPT,React,Redux,Styled-Component,Bootstrap,",
+    tech: "CSS, JAVASCRIPT, React, Redux, Styled-Component, Bootstrap,",
     git: "https://github.com/mdshahbajalam7/HindustanTimes_Clone",
     deploy: "https://github.com/mdshahbajalam7/HindustanTimes_Clone",
     // linkdin:
@@ -34,7 +34,7 @@ export const project = [
     img: "https://img.krishijagran.com/media/39688/kimaye.jpg",
     title: "Kimaye Clone",
     desc: "Kimaye. Brand. Growers of India's finest fruits, we want to make eating fruits a worry-free and delightful experience for you.",
-    tech: "HTML,CSS,JAVASCRIPT,React js, redux,MongoDB,Node JS",
+    tech: "HTML, CSS, JAVASCRIPT, React js, redux, MongoDB, Node JS",
     git: "https://github.com/mdshahbajalam7/Kimaye",
     // linkdin:
     //   "https://www.linkedin.com/posts/debobrota-haldar-3340651aa_project-masaischool-webdevelopment-activity-6916613211349819392-y-dz?utm_source=linkedin_share&utm_medium=member_desktop_web",
@@ -44,7 +44,7 @@ export const project = [
     img: "https://user-images.githubusercontent.com/96000964/180591743-63917918-25ed-4043-9f82-7b7d2bda4dd6.png",
     title: "Bigbasket Clone",
     desc: "The best online grocery store in India. bigbasket is an online supermarket for all your daily needs.Big Basket is one of the largest online grocery super market in India. It was founded in 2011 by Hari Menon, VS Sudhakar, V S Ramesh, Vipul Parekh and Abhinay choudari. It has its headquarters in Bengaluru. It operates in more than 30 cities in India ",
-    tech: "HTML, CSS, JAVASCRIPT, DOM,React Js,Redux, Node JS,MongooDB Atlas,Material Ui",
+    tech: "HTML, CSS, JAVASCRIPT, DOM, React Js, Redux, Node JS, MongooDB Atlas, Material Ui",
     git: "https://github.com/jeny008/quixotic-snail-9802",
     deploy: "https://bigbasket-clone-web16.netlify.app/",
     // linkdin:
@@ -54,7 +54,7 @@ export const project = [
     img: "https://cdn4.xsplit.com/helpdesk/images/i/o/450745586/09b99fd174bb8803bf863b63/001.gif",
     title: "Google Meet Clone",
     desc: "This is a video conferencing and a chatting web application through which you can devlop a chatting application and video can do video chatting with individual or in a group as well.",
-    tech: "HTML, CSS, JAVASCRIPT, DOM,React Js,Redux, Node JS,MongooDB Atlas,Material Ui",
+    tech: "HTML, CSS, JAVASCRIPT, DOM, React Js, Redux, Node JS, MongooDB Atlas, Material Ui",
     git: "https://github.com/mdshahbajalam7/Smooth-shark",
     deploy: "https://minichatingapp.netlify.app/",
     // linkdin:
@@ -65,7 +65,7 @@ export const project = [
     img: "https://external-preview.redd.it/MWGKhoIU0m0zScLdtX582Un9EiEoAXnE099kORZDadA.png?format=pjpg&auto=webp&s=b90ec7e92e1807e3cbfb86f03138c63e23e3d717",
     title: "Spotify Clone",
     desc: "Master modern web development by building an improved version of Spotify. With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more, this is the best music application you can currently find on YouTube",
-    tech: "redux javascript reactjs rapidapi",
+    tech: "redux, javascript, reactjs, rapidapi",
     git: "https://github.com/mdshahbajalam7/Music-App-",
     deploy: "https://musicappspotify.netlify.app/",
     // linkdin:
@@ -74,24 +74,24 @@ export const project = [
 //   jsdkfjaskjdf end
   {
     img: "https://user-images.githubusercontent.com/62937819/84504960-71862780-acef-11ea-9c57-63d755eec333.png",
-    title: "Weather App 2",
+    title: "YouTube Clone",
     desc: "A web application Where you can watch movies, songs and any kind of videos. you can search videos. I created this app in unit 3 using advance javascript. data comming from API.",
-    tech: "HTML, CSS, JAVASCRIPT, DOM,React Js, RapidApi , Material Ui",
+    tech: "HTML, CSS, JAVASCRIPT, DOM, React Js, RapidApi, Material Ui",
     git: "https://github.com/mdshahbajalam7/YouTube",
     deploy: "https://myprojectyoutube.netlify.app/",
     // linkdin:
     //   "https://www.linkedin.com/posts/debobrota-haldar-3340651aa_masaischool-coding-activity-6911003022017916928-5cC7?utm_source=linkedin_share&utm_medium=member_desktop_web",
   },
-//   {
-//     img: "https://pbs.twimg.com/media/FT175c8XwAAVOTW?format=jpg&name=small",
-//     title: "Resturent App -1",
-//     desc: "A web application where you can add restaurants, Food. I implemented add, delete, and pagination functionality using react, with moc-server.",
-//     tech: "React, Css",
-//     git: "https://github.com/iamdebobrota/React-Resturents",
-//     deploy: "https://visionary-treacle-6f5388.netlify.app/",
-//     // linkdin:
-//     //   "https://www.linkedin.com/posts/debobrota-haldar-3340651aa_reactjs-masaischool-activity-6922185650578345984-6m21?utm_source=linkedin_share&utm_medium=member_desktop_web",
-//   },
+  {
+    img: "https://miro.medium.com/max/1400/1*mzMIXN2JodV2taEBzmUKLg.png",
+    title: "Employess Curd Operation ",
+    desc: "A web application where you can add Employess Curd Operation. I implemented,Post, add, delete,put, and pagination functionality using react, with moc-server.",
+    tech: "React, Material Ui",
+    git: "https://github.com/mdshahbajalam7/curdopperation",
+    deploy: "https://curdoperationwithreact.netlify.app/",
+    // linkdin:
+    //   "https://www.linkedin.com/posts/debobrota-haldar-3340651aa_reactjs-masaischool-activity-6922185650578345984-6m21?utm_source=linkedin_share&utm_medium=member_desktop_web",
+  },
 //   {
 //     img: "https://pbs.twimg.com/media/FUPawD4XEAIZBaf?format=jpg&name=small",
 //     title: "Resturent App -2",

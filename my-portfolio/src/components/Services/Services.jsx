@@ -39,8 +39,8 @@ const Services = () => {
             <li>As I grow and flourish as a Developer, one thing which keeps me going is my inquisitiveness for
               discovering new things every day.</li>
             <br />
-            <li>Fast Forwarding to today, I built a number of web applications and 4 major projects.
-              Learned a great deal about teamwork, leadership, and
+            <li>Fast Forwarding to today, I built a number of web applications and 5 major projects.
+             and 20+ own Projects. Learned a great deal about teamwork, leadership, and
               communication. After months of rigorous training, here I am looking for an opportunity as a full stack web developer.</li>
             <br />
 
