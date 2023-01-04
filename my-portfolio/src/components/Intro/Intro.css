@@ -8,6 +8,7 @@
   padding-top: 5rem;
 }
 
+
 /* left side styling */
 .i-left {
   display: flex;
@@ -92,7 +93,7 @@
 .my_img {
   height: 250px;
   width: 250px;
-  /* border-radius: 50%; */
+  border-radius: 20px;
   margin-top: -30px;
   margin-left: -5px;
   object-fit: cover;

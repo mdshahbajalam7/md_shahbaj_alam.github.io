@@ -81,6 +81,7 @@ const Navbar = () => {
                     smooth={true}
                     className="list"
                   > */}
+                  
                   Resume
                   {/* </Link> */}
                 </a>
@@ -106,7 +107,7 @@ const Navbar = () => {
               }}
               style={{ marginLeft: "0px", cursor: "pointer", top: "0" }}
             />
-            <h5
+            {/* <h5
               onClick={() => {
                 setNav(!nav);
                 console.log(nav);
@@ -114,7 +115,7 @@ const Navbar = () => {
               className="hide_name animate-bounce "
             >
               Md Shahbaj Alam
-            </h5>
+            </h5> */}
             <li>
               <Link
                 activeClass="active"
