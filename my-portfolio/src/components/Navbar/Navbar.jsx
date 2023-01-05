@@ -37,7 +37,12 @@ const Navbar = () => {
           }}
         >
           <Link to="intro" spy={true} smooth={true} className="list">
-            <img src="https://i.pinimg.com/474x/02/be/9c/02be9cbf682bb531679ffa34099e13d4.jpg" alt="d" className="n-name" data-aos="slide-left" />
+            <img
+              src="https://i.pinimg.com/474x/02/be/9c/02be9cbf682bb531679ffa34099e13d4.jpg"
+              alt="d"
+              className="n-name"
+              data-aos="slide-left"
+            />
           </Link>
           <Toggle className="toggle" />
         </div>
@@ -81,7 +86,6 @@ const Navbar = () => {
                     smooth={true}
                     className="list"
                   > */}
-                  
                   Resume
                   {/* </Link> */}
                 </a>
