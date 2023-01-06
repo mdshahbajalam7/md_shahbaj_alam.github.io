@@ -84,8 +84,8 @@ export const project = [
   },
   {
     img: "https://miro.medium.com/max/1400/1*mzMIXN2JodV2taEBzmUKLg.png",
-    title: "Employess Curd Operation ",
-    desc: "A web application where you can add Employess Curd Operation. I implemented,Post, add, delete,put, and pagination functionality using react, with moc-server.",
+    title: "Curd Operation ",
+    desc: "A web application where you can add Employee Curd Operation. I implemented,Post, add, delete,put, and pagination functionality using react, with moc-server.",
     tech: "React, Material Ui",
     git: "https://github.com/mdshahbajalam7/curdopperation",
     deploy: "https://curdoperationwithreact.netlify.app/",

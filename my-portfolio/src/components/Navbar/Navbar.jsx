@@ -75,20 +75,20 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                <a
+                {/* <a
                   className="atageresume"
                   target="_blank"
                   href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
-                >
+                > */}
                   {/* <Link
                     to="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
                     spy={true}
                     smooth={true}
                     className="list"
                   > */}
-                  Resume
+                  {/* Resume */}
                   {/* </Link> */}
-                </a>
+                {/* </a> */}
               </li>
             </ul>
           </div>
@@ -192,7 +192,7 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
-              <a
+              {/* <a
                 onClick={() => {
                   setNav(!nav);
                   console.log(nav);
@@ -202,7 +202,7 @@ const Navbar = () => {
                 href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
               >
                 Resume
-              </a>
+              </a> */}
             </li>
           </ul>
 
