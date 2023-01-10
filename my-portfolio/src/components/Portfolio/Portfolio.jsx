@@ -33,11 +33,11 @@ const Portfolio = () => {
           >
             <img src={item.img} alt="a" className="project_img" />
             <h3 className="pr_title" style={{marginTop:"13px"}}>{item.title}</h3>
-            <p className="pr_desc desc" style={{marginTop:"10px"}}>{item.desc}</p>
+            <p className="pr_desc desc" style={{marginTop:"10px",fontSize:"14px"}}>{item.desc}</p>
             <br />
 
             <p className="pr_desc t_sk ">
-              <span className="tech">Tech Stack: </span> {item.tech}
+              <span className="tech">Tech Stack: </span> <span style={{fontSize:"14px"}}>{item.tech}</span>
             </p>
 
             <div className="pr_flex">

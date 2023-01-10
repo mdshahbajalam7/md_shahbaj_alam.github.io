@@ -68,7 +68,7 @@ const Services = () => {
               developer.
             </li>
             <br /> */}
-            <div style={{ fontSize: "20px", marginTop: "40px" }}>
+            <div style={{ fontSize: "22px", marginTop: "40px",fontFamily:"600" }}>
               I am a creative, observing, analytical, and aspiring FULL-STACK
               WEB DEVELOPER from MASAI SCHOOL specializing in MERN STACK. Having
               the technical skills in HTML, CSS, javascript, react js, node js,

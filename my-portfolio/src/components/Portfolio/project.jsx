@@ -23,7 +23,7 @@ export const project = [
   {
     img: "https://d1gzz21cah5pzn.cloudfront.net/img/websites/h/hin/hindustantimes.com-desktop@2x.1652906598.jpg",
     title: "Hindustantimes Clone",
-    desc: "Hindustan Times is an Indian English-language daily newspaper the Indian independence nationalist daily Hindustan Times is an Indian English-language daily newspaper based in Delhi. It is the flagship publication of HT Media, an entity controlled by the KK Birla family, and is owned by Shobhana Bhartia.",
+    desc: "Hindustan Times is an Indian English-language daily newspaper the Indian independence nationalist daily Hindustan Times is an Indian English-language daily newspaper.",
     tech: "CSS, JAVASCRIPT, React, Redux, Styled-Component, Bootstrap,",
     git: "https://github.com/mdshahbajalam7/HindustanTimes_Clone",
     deploy: "https://github.com/mdshahbajalam7/HindustanTimes_Clone",
@@ -43,7 +43,7 @@ export const project = [
   {
     img: "https://user-images.githubusercontent.com/96000964/180591743-63917918-25ed-4043-9f82-7b7d2bda4dd6.png",
     title: "Bigbasket Clone",
-    desc: "The best online grocery store in India. bigbasket is an online supermarket for all your daily needs.Big Basket is one of the largest online grocery super market in India. It was founded in 2011 by Hari Menon, VS Sudhakar, V S Ramesh, Vipul Parekh and Abhinay choudari. It has its headquarters in Bengaluru. It operates in more than 30 cities in India ",
+    desc: "The best online grocery store in India. bigbasket is an online supermarket for all your daily needs.Big Basket is one of the largest online grocery super market in India. cities in India.",
     tech: "HTML, CSS, JAVASCRIPT, DOM, React Js, Redux, Node JS, MongooDB Atlas, Material Ui",
     git: "https://github.com/jeny008/quixotic-snail-9802",
     deploy: "https://bigbasket-clone-web16.netlify.app/",
@@ -64,7 +64,7 @@ export const project = [
   {
     img: "https://external-preview.redd.it/MWGKhoIU0m0zScLdtX582Un9EiEoAXnE099kORZDadA.png?format=pjpg&auto=webp&s=b90ec7e92e1807e3cbfb86f03138c63e23e3d717",
     title: "Spotify Clone",
-    desc: "Master modern web development by building an improved version of Spotify. With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music around you, worldwide top charts, and much more, this is the best music application you can currently find on YouTube",
+    desc: "Master modern web development by building an improved version of Spotify. With a modern homepage, fully-fledged music player, search, lyrics, song exploration features, search, popular music.",
     tech: "redux, javascript, reactjs, rapidapi",
     git: "https://github.com/mdshahbajalam7/Music-App-",
     deploy: "https://musicappspotify.netlify.app/",
