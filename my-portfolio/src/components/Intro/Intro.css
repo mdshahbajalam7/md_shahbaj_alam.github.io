@@ -8,7 +8,6 @@
   padding-top: 5rem;
 }
 
-
 /* left side styling */
 .i-left {
   display: flex;
@@ -91,9 +90,9 @@
 }
 
 .my_img {
-  height: 350px;
-  width: 350px;
-  border-radius: 20px;
+  height: 290px;
+  width: 290px;
+  border-radius: 5px;
   margin-top: -30px;
   margin-left: -5px;
   object-fit: cover;
@@ -121,7 +120,8 @@
   transform: scale(1.1);
 }
 .i-right {
-  background-image: url("https://debobrota-haldar.netlify.app/static/media/circle.5627b84e3e421ff98551.svg");
+  /* background-color: #dc143c; */
+  /* background-image: url("https://debobrota-haldar.netlify.app/static/media/circle.5627b84e3e421ff98551.svg"); */
   display: flex;
   background-repeat: no-repeat;
   -webkit-box-pack: center;

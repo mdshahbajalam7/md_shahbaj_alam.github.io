@@ -17,22 +17,11 @@ const Experience = () => {
 
   return (
     <div className="experience" id='experience'  data-aos="flip-up"  data-aos-duration="4000" data-aos-delay="300">
-      {/* <div className="achievement">
-      
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>0</div>
-        <span  style={{color: darkMode?'white':''}}>years </span>
-        <span>Experience</span>
-      </div> */}
       <div className="achievement">
         <div className="circle" style={{color: darkMode?'var(--orange)':''}}>25+</div>
         <span  style={{color: darkMode?'white':''}}>completed </span>
         <span>Projects</span>
       </div>
-      {/* <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
-        <span  style={{color: darkMode?'white':''}}>companies </span>
-        <span>Work</span>
-      </div> */}
     </div>
   );
 };

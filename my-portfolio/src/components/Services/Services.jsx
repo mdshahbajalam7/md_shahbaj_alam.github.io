@@ -37,7 +37,7 @@ const Services = () => {
       </span>
       <div className="grid_about ">
         <div className="awesome " data-aos="slide-right">
-          <ul className="about_article anim">
+          <ul >
             {/* <li>
               Hello! My name is Md Shahbaj Alam and I enjoy creating things that
               live on the internet.
@@ -68,16 +68,14 @@ const Services = () => {
               developer.
             </li>
             <br /> */}
-            <div style={{ fontSize: "22px", marginTop: "40px",fontFamily:"600" }}>
+            <div className="about_article anim" style={{fontSize:"20px",marginTop:"80px"}}>
               I am a creative, observing, analytical, and aspiring FULL-STACK
               WEB DEVELOPER from MASAI SCHOOL specializing in MERN STACK. Having
               the technical skills in HTML, CSS, javascript, react js, node js,
-              and mongoo database, I have cloned several websites during my
-              course duration here at Masai school. I am also a bachelor in
-              mechanical engineering, even though I hold a bachelor's degree in
+              and mongoo database,I have cloned several websites during my
+              course duration here at Masai school.I am also a bachelor in mechanical engineering, even though I hold a bachelor's degree in
               mechanical engineering but my passion for information technology
-              and computer science drag me to become a full-stack web developer.
-              I have cloned Kimaye,Tanishq ,and Bigbasket. Here I was also
+              and computer science drag me to become a full-stack web developer.I have cloned Kimaye,Tanishq ,and Bigbasket. Here I was also
               groomed with soft skills.
             </div>
           </ul>
