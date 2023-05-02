@@ -18,7 +18,7 @@ const Navbar = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
-
+  const backgroundColor = "white";
   return (
     <div className="Nav-main" style={{ color: darkMode ? "white" : "" }}>
       <div
@@ -38,6 +38,11 @@ const Navbar = () => {
         >
           <Link to="intro" spy={true} smooth={true} className="list">
             <img
+              style={{
+                color: darkMode ? "white" : "",
+                backgroundColor: backgroundColor === "white" ? "white" : "none"
+              }}
+              // style={{ color: darkMode ? "white" : "" , backgroundColor: backgroundColor === 'none' ? '' : 'white'}}
               src="https://i.pinimg.com/474x/02/be/9c/02be9cbf682bb531679ffa34099e13d4.jpg"
               alt="d"
               className="n-name"
@@ -65,6 +70,11 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
+                <Link to="github" spy={true} smooth={true} className="list">
+                  GitHub
+                </Link>
+              </li>
+              <li>
                 <Link to="portfolio" spy={true} smooth={true} className="list">
                   Projects
                 </Link>
@@ -75,20 +85,22 @@ const Navbar = () => {
                 </Link>
               </li>
               <li>
-                {/* <a
+                <a
+                  style={{ color: darkMode ? "white" : "" }}
                   className="atageresume"
                   target="_blank"
                   href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
-                > */}
+                >
+                  Resume
                   {/* <Link
                     to="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
                     spy={true}
                     smooth={true}
                     className="list"
-                  > */}
-                  {/* Resume */}
-                  {/* </Link> */}
-                {/* </a> */}
+                  >
+                  
+                  </Link> */}
+                </a>
               </li>
             </ul>
           </div>

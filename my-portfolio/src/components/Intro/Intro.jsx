@@ -3,10 +3,18 @@ import "./Intro.css";
 import { themeContext } from "../../Context";
 import { Typewriter } from "react-simple-typewriter";
 import SmoothList from "react-smooth-list";
-
+import { BsGithub } from "react-icons/bs"
+import resume from "./Md_Alam Resume.pdf"
+import { AiOutlineDownload, IconName } from "react-icons/ai";
 const Intro = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;
+
+  const handleclick = () => {
+    window.open(
+      "https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
+    );
+  };
   return (
     <SmoothList transitionDuration={2500} animated={true}>
       <div className="Intro" id="intro">
@@ -42,13 +50,15 @@ const Intro = () => {
           </div>
 
           <a
-            target="_blank"
-            href="https://drive.google.com/file/d/1nqEcr90wqavdEklHPXjuXKXSwSYyZrdr/view?usp=sharing"
+            href={resume}
             download
             className="resum anim"
           >
-            <button className="resume shadow-lg shadow-cyan-500/50">
+            <button className="resume shadow-lg shadow-cyan-500/50"
+            onClick={handleclick}
+            >
               Resume
+              <AiOutlineDownload size={25}/>
             </button>
           </a>
 
@@ -58,11 +68,8 @@ const Intro = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
-                style={{ borderRadius: "50%" }}
-                src="https://pbs.twimg.com/profile_images/1414990564408262661/r6YemvF9_400x400.jpg"
-                alt="github"
-              />
+              
+               <BsGithub  fontSize={"100px"} color="black"/>
             </a>
             <a
               href="https://www.linkedin.com/in/md-shahbaj-alam-7343a320a/"

@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react";
 import "./Services.css";
 import { themeContext } from "../../Context";
 import Svg1 from "./Svg";
-
 import Aos from "aos";
 import "aos/dist/aos.css";
 // import Resume from './resume.pdf';
@@ -37,7 +36,7 @@ const Services = () => {
       </span>
       <div className="grid_about ">
         <div className="awesome " data-aos="slide-right">
-          <ul >
+          <ul>
             {/* <li>
               Hello! My name is Md Shahbaj Alam and I enjoy creating things that
               live on the internet.
@@ -68,15 +67,24 @@ const Services = () => {
               developer.
             </li>
             <br /> */}
-            <div className="about_article anim" style={{fontSize:"20px",marginTop:"80px"}}>
-              I am a creative, observing, analytical, and aspiring FULL-STACK
-              WEB DEVELOPER from MASAI SCHOOL specializing in MERN STACK. Having
-              the technical skills in HTML, CSS, javascript, react js, node js,
-              and mongoo database,I have cloned several websites during my
-              course duration here at Masai school.I am also a bachelor in mechanical engineering, even though I hold a bachelor's degree in
-              mechanical engineering but my passion for information technology
-              and computer science drag me to become a full-stack web developer.I have cloned Kimaye,Tanishq ,and Bigbasket. Here I was also
-              groomed with soft skills.
+            <div
+              className="about_article anim"
+              style={{ fontSize: "20px", marginTop: "80px" }}
+            >
+              As a Full Stack MERN Developer, I bring a unique blend of technical expertise and creative problem-solving skills to the table. With extensive experience in developing and implementing full-stack applications, I am proficient in all aspects of MERN stack development, including MongoDB, Express, React, and Node.js. My ability to work collaboratively with cross-functional teams, while also possessing a keen eye for detail, has allowed me to deliver high-quality software solutions that meet the unique needs of my clients. I am passionate about staying up-to-date with the latest technologies and trends in software development and am committed to delivering solutions that are scalable, maintainable, and of the highest quality.
+              {/* I am a Full Stack Web Developer. I love exploring new technologies
+              in the field of Web Development and always try to adapt to them. I
+              believe in the concept of continuous learning by regularly
+              upgrading my skills and enhancing my knowledge. I have learned
+              MERN stack, data structures algorithms, and soft skills at Masai
+              School. As a developer, my hunger for learning has drastically
+              increased. And I want to centralize my skills and learning for the
+              enhancement of an organization and more of it, to enhance my career. */}
+              {/* career.I am also a bachelor in mechanical engineering, even though
+              I hold a bachelor's degree in mechanical engineering but my
+              passion for information technology and computer science drag me to
+              become a full-stack web developer.I have cloned Kimaye,Tanishq
+              ,and Bigbasket. Here I was also groomed with soft skills. */}
             </div>
           </ul>
         </div>

@@ -10,6 +10,8 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import { useContext } from "react";
 import { themeContext } from "./Context";
+// import {GitHub} from "./components/github/Github";
+import Github from "./components/github/Github"
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
       <Services />
       <Works />
       <Experience />
+      <Github/>
+      {/* <GitHub/> */}
       <Portfolio />
       {/* <Testimonial /> */}
       <Contact />

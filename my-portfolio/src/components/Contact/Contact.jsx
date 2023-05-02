@@ -67,7 +67,7 @@ const Contact = () => {
                 href="https://github.com/mdshahbajalam7"
                 target="_blank"
               >
-                Github
+              mdshahbajalam7
               </a>
             </div>
             <div className="con_img">
